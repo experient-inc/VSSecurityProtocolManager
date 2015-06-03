@@ -4,6 +4,7 @@
     <Identity Id="b02dae82-9024-4b4b-a2a1-ae9c4559aee2" Version="0.5" Language="en-US" Publisher="Experient Inc." />
     <DisplayName>Security Protocol Manager 2013</DisplayName>
     <Description xml:space="preserve">Allows one to manage what security protocols (Ssl3, Tls, etc) Visual Studio will recognize while performing web-based operations on a project, such as when adding a service reference.  Importantly, this packages allows you to create service references against remote sources that only allow the TLS 1.2 protocol.</Description>
+    <MoreInfo>https://github.com/experient/VSSecurityProtocolManager</MoreInfo>
     <License>license.txt</License>
     <Icon>Resources\nopoodles.ico</Icon>
     <PreviewImage>Resources\nopoodles.png</PreviewImage>
