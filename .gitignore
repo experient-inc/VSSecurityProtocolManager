@@ -1,0 +1,9 @@
+*.dll
+*.pdb
+*.exe
+*.cache
+*.suo
+*.csproj.user
+*.snk
+bin/
+obj/

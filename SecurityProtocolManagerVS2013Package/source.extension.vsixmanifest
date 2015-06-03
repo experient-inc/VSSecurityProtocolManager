@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="b02dae82-9024-4b4b-a2a1-ae9c4559aee2" Version="0.5" Language="en-US" Publisher="Experient Inc." />
+    <DisplayName>Security Protocol Manager 2013</DisplayName>
+    <Description xml:space="preserve">Allows one to manage what security protocols (Ssl3, Tls, etc) Visual Studio will recognize while performing web-based operations on a project, such as when adding a service reference.  Importantly, this packages allows you to create service references against remote sources that only allow the TLS 1.2 protocol.</Description>
+    <License>license.txt</License>
+    <Icon>Resources\nopoodles.ico</Icon>
+    <PreviewImage>Resources\nopoodles.png</PreviewImage>
+    <Tags>Ssl, Tls, Tls11, Tls12, Visual Studio, ServicePointManager, SecurityProtocolType, Experient</Tags>
+  </Metadata>
+  <Installation InstalledByMsi="false">
+    <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.Pro" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    <Dependency Id="Microsoft.VisualStudio.MPF.12.0" DisplayName="Visual Studio MPF 12.0" d:Source="Installed" Version="[12.0]" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+  </Assets>
+</PackageManifest>
